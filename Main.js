@@ -62,18 +62,16 @@ let Pessoa2 = {
 //Referente a Repúblicas
 
 let Rep0 = {
-    nome: "Catafractários",
+    nome: "Orfanato",
     trote: false,
-    moradores: [Pessoa1, Pessoa2]
-}
-
-let Rep1 = {
-    nome: "Legionários",
-    trote: true,
-    moradores: []
+    moradores: 5,
+    idade_da_rep: 10
 }
 
 //Main
 
+console.log(Universidade);
+console.log(Rep0);
 console.log(Pessoa0, Pessoa1, Pessoa2);
 console.log(Pessoa0.checarIDs(Pessoa2.nome, Pessoa2.idade));
+console.log(Pessoa0.checarIDs(Pessoa1.nome, Pessoa1.idade));
